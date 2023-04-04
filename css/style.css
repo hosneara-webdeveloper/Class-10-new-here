@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(32, 30, 30, 0.717);
+}
+
+.header .navbar-nav li:last-child {
+    background-color: #85E0CE;
+    border-radius: 30px;
+    border: 1px solid #85E0CE;
+    transition: .4s;
+
+}
+
+.navbar-nav li:last-child:hover {
+    background-color: rgba(18, 20, 22, 0);
+}
+
+.navbar-nav li:first-child active {}
+
+.active {
+    color: aqua !important;
+}
+
+.banner {
+    background-image: url('../images/ima.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(10, 6, 8, 0.407);
+    background-blend-mode: multiply;
+    padding: 7% 0 7% 0;
+}
+
+.bg-primari {
+    background-color: #85E0CE;
+    transition: .4s;
+
+}
+
+.bg-primari:hover {
+    background-color: transparent;
+
+}
+
+.text-primari {}
+
+.bg-secondari {
+    background-color: #3f454d;
+}
+
+.bg-primari {
+    background-color: #85E0CE;
+    border: 1px solid #85E0CE;
+    border-radius: 20px;
+}
+
+/* bihicle section */
+section {
+    overflow: hidden;
+}
+
+/* Global Organization section */
+
+.card-body {
+
+    background-color: #EEEEEE;
+}
+
+.card-body p {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.card-body a {
+
+    border: 1px solid #85E0CE;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.704)
+}
+
+.the-powr {
+    text-align: center;
+}
+
+
+/* unlock the power section */
+
+.card {
+    border: 0 !important;
+}
+
+.card img {
+    border-radius: 0 !important;
+}
+
+.card-body {
+    background: transparent;
+    padding-left: 0;
+
+}
+
+
+
+
+.card-foot {
+    background: transparent !important;
+    border: 0 !important;
+    padding-left: 0;
+}
+
+/* contact section start */
+
+
+
+/* footer social section */
